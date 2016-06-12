@@ -33,8 +33,8 @@ horello.Card.prototype = {
   setTitle: function(titleStr) {
    $.ajax('https://api.trello.com/1/cards/' + this.id + '', {
        data: {
-           key: 'ab3e895cad67a947ad0fcc93d33fc689',
-           token: '3f8ac1459d8885b64edf0259a2af87b4eb6f964599cd19143a378479dd2796d5',
+           key: 'not4ureyes',
+           token: 'not4ureyes',
            name: titleStr
         },
        method: 'PUT'
@@ -48,8 +48,8 @@ horello.Card.prototype = {
   setDescription: function(desc) {
      $.ajax('https://api.trello.com/1/cards/' + this.id + '', {
        data: {
-           key: 'ab3e895cad67a947ad0fcc93d33fc689',
-           token: '3f8ac1459d8885b64edf0259a2af87b4eb6f964599cd19143a378479dd2796d5',
+           key: 'not4ureyes',
+           token: 'not4ureyes',
            desc: desc
         },
        method: 'PUT'
@@ -101,8 +101,8 @@ horello.List.prototype = {
   setName: function(name) {
      $.ajax('https://api.trello.com/1/lists/' + this.id + '', {
        data: {
-           key: 'ab3e895cad67a947ad0fcc93d33fc689',
-           token: '3f8ac1459d8885b64edf0259a2af87b4eb6f964599cd19143a378479dd2796d5',
+           key: 'not4ureyes',
+           token: 'not4ureyes',
            name: name
         },
        method: 'PUT'
@@ -112,8 +112,8 @@ horello.List.prototype = {
   addCard: function(name, desc) {
       $.ajax('https://api.trello.com/1/cards/', {
        data: {
-           key: 'ab3e895cad67a947ad0fcc93d33fc689',
-           token: '3f8ac1459d8885b64edf0259a2af87b4eb6f964599cd19143a378479dd2796d5',
+           key: 'not4ureyes',
+           token: 'not4ureyes',
            listId: this.id,
            due: null,
            name: name,
@@ -196,10 +196,10 @@ horello.Board.prototype = {
      debugger;
       $.ajax('https://api.trello.com/1/lists/', {
        data: {
-           key: 'ab3e895cad67a947ad0fcc93d33fc689',
-           token: '3f8ac1459d8885b64edf0259a2af87b4eb6f964599cd19143a378479dd2796d5',
+           key: 'not4ureyes',
+           token: 'not4ureyes',
            name: listName,
-           idBoard: '573b41293e57e519647cf5b1'
+           idBoard: 'not4ureyes'
         },
         method: 'POST',
        success: function(response){
